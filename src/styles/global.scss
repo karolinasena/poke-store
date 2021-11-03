@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+}
+
+:root {
+  --primary: #5e548e;
+  --secondary: #9f86c0;
+  --gray-dark: #242423;
+  --gray: #8b8c89;
+  --gray-light: #e7ecef;
+  --border: #dee2e6;
+}
+
+body {
+  background: var(--gray-light);
+  height: 100vh;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}

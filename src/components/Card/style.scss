@@ -1,0 +1,64 @@
+.card-container {
+  width: 340px;
+  height: 310px;
+  border: 1px solid var(--gray);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1.5rem;
+
+  img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+    .card-info {
+      max-width: 200px;
+      min-width: 140px;
+      color: var(--gray-dark);
+
+      .card-name {
+        color: var(--primary);
+        font-weight: 700;
+        text-transform: capitalize;
+      }
+
+      .card-price {
+        color: var(--gray-dark);
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 1.2rem;
+      }
+    }
+
+    button {
+      width: 140px;
+      height: 40px;
+      padding: 0.5rem;
+      border-radius: 0.2rem;
+      background: var(--secondary);
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--gray-light);
+      cursor: pointer;
+
+      &:hover {
+        background: var(--primary);
+      }
+    }
+  }
+}

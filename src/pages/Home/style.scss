@@ -1,0 +1,9 @@
+.home-container {
+  .cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    padding-bottom: 6rem;
+  }
+}

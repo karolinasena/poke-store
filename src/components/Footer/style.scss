@@ -1,0 +1,13 @@
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  background: var(--gray-light);
+  border: 1px solid var(--border);
+
+  p {
+    text-align: center;
+    color: var(--gray-dark);
+  }
+}
