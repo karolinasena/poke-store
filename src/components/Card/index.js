@@ -9,7 +9,7 @@ function Card({ pokemon }) {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src={pokemon.sprites.front_default} />
+        <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
       </div>
 
       <div className="card">

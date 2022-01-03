@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import PokemonContext from "../../contexts/PokemonContext";
 import { Trash2 } from "react-feather";
@@ -48,7 +47,7 @@ function Cart() {
                     pokemon.pokemonsInCart.map((pokemon, index) => (
                       <tr key={pokemon.id}>
                         <td>
-                          <img src={pokemon.sprites.front_default} />
+                          <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
                           <h3>{pokemon.name}</h3>
                         </td>
                         <td> {pokemon.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>

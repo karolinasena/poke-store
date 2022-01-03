@@ -1,5 +1,4 @@
-import React, { useCallback } from "react";
-import { useState } from "react/cjs/react.development";
+import React, { useCallback, useState } from "react";
 import PokemonContext from "./PokemonContext";
 import Swal from "sweetalert2";
 
